@@ -79,6 +79,25 @@ congestion. But we are not going to cover those in this report.
 
 \section{Topologies}
 
+There are several key topologies that are used in enterprises: mesh, star and hybrid. {\it Mesh} 
+topology is when every network element is connected to every other network element. The links can be 
+wired, wireless and pseudo links (if we are talking about overlays). Mesh can be full and partial.
+In full mesh, obviously, ever element is connected every other element in the network. Consider,
+for example, personal area network in which all nodes are connected using wireless medium. 
+Wired meshes are expensive, though, and are rarely used in modern deployments. Meshes are 
+crucial, however, when availability is a must. In mesh, some nodes can fail, yet, the network
+will remain and packets will be delivered, not to all but some devices. 
+
+{\it Star} topologies are cheaper and less fault tolerant. In star-like topology some node becomes 
+the root, while others connected to the root element and all the traffic flows through it. 
+Oftentimes, redundant links are added to the topology to bring some level of tolerance to failures.
+A typical star topology is shown in Figure~\ref{}. 
+
+Finally, there are also hybrid topologies, such as {\it hub-and-spoke} networks. In this type of
+networks spoke nodes are connected to hubs, while hubs form a full mesh between each other. Such
+networks are cheaper than full mesh, but more fault tolerant than star topologies. A typical network
+is shown in Figure~\ref{}.
+
 \section{Tools}
 
 \section{Network protocols to watch out for}

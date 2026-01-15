@@ -5,15 +5,15 @@
 \contentsline {chapter}{\numberline {2.}Background}{7}{}%
 \contentsline {section}{\numberline {2.1}Basic network characteristics}{7}{}%
 \contentsline {section}{\numberline {2.2}Topologies}{9}{}%
-\contentsline {section}{\numberline {2.3}Tools}{9}{}%
-\contentsline {section}{\numberline {2.4}Network protocols to watch out for}{9}{}%
-\contentsline {subsection}{\numberline {2.4.1}Spanning trees}{9}{}%
-\contentsline {subsection}{\numberline {2.4.2}TCP, UDP and ICMP}{9}{}%
-\contentsline {subsection}{\numberline {2.4.3}DNS and DHCP}{9}{}%
-\contentsline {subsection}{\numberline {2.4.4}LDAP and other Windows services}{9}{}%
-\contentsline {subsection}{\numberline {2.4.5}What about timing: NTP}{9}{}%
-\contentsline {subsection}{\numberline {2.4.6}SSH, TLS and other security protocols}{9}{}%
-\contentsline {subsection}{\numberline {2.4.7}Watch out for anti-virus}{9}{}%
+\contentsline {section}{\numberline {2.3}Tools}{10}{}%
+\contentsline {section}{\numberline {2.4}Network protocols to watch out for}{10}{}%
+\contentsline {subsection}{\numberline {2.4.1}Spanning trees}{10}{}%
+\contentsline {subsection}{\numberline {2.4.2}TCP, UDP and ICMP}{10}{}%
+\contentsline {subsection}{\numberline {2.4.3}DNS and DHCP}{10}{}%
+\contentsline {subsection}{\numberline {2.4.4}LDAP and other Windows services}{10}{}%
+\contentsline {subsection}{\numberline {2.4.5}What about timing: NTP}{10}{}%
+\contentsline {subsection}{\numberline {2.4.6}SSH, TLS and other security protocols}{10}{}%
+\contentsline {subsection}{\numberline {2.4.7}Watch out for anti-virus}{10}{}%
 \contentsline {chapter}{\numberline {3.}Results}{11}{}%
 \contentsline {section}{\numberline {3.1}Breakdown of the network protocols in small enterprise network}{11}{}%
 \contentsline {section}{\numberline {3.2}Watch out! We are plotting the network map}{11}{}%
