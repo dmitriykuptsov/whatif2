@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.15)  15 JAN 2026 20:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.15)  15 JAN 2026 20:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -984,13 +984,9 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 11.39996pt on input line 3.
  [5] [6
 
-] [7]
-Overfull \vbox (51.82103pt too high) has occurred while \output is active []
+] [7] [8
 
-
-[8] [9
-
-] [10
+] [9] [10
 
 ]) (./book.bbl [11] [12
 
@@ -1000,11 +996,11 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ) [13] (./book.aux) ) 
 Here is how much of TeX's memory you used:
- 18523 strings out of 478994
- 350559 string characters out of 5858184
+ 18527 strings out of 478994
+ 350600 string characters out of 5858184
  1166608 words of memory out of 5000000
- 35555 multiletter control sequences out of 15000+600000
- 451155 words of font info for 125 fonts, out of 8000000 for 9000
+ 35558 multiletter control sequences out of 15000+600000
+ 453089 words of font info for 127 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  143i,6n,144p,432b,283s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8
@@ -1012,7 +1008,7 @@ r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><
 /usr/local/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/lo
 cal/texlive/2021/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/local/tex
 live/2021/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb>
-Output written on book.pdf (13 pages, 53040 bytes).
+Output written on book.pdf (13 pages, 54867 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream
