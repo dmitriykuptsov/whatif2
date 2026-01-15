@@ -4,15 +4,15 @@
 \contentsline {section}{\numberline {1.1}Questions}{5}{}%
 \contentsline {chapter}{\numberline {2.}Background}{7}{}%
 \contentsline {section}{\numberline {2.1}Basic network characteristics}{8}{}%
-\contentsline {subsection}{\numberline {2.1.1}Topologies}{8}{}%
-\contentsline {subsection}{\numberline {2.1.2}Tools}{8}{}%
-\contentsline {section}{\numberline {2.2}Network protocols to watch out for}{8}{}%
-\contentsline {section}{\numberline {2.3}TCP and UDP}{8}{}%
-\contentsline {section}{\numberline {2.4}DNS and DHCP}{8}{}%
-\contentsline {section}{\numberline {2.5}LDAP and other Windows services}{8}{}%
-\contentsline {section}{\numberline {2.6}NTP}{8}{}%
-\contentsline {subsection}{\numberline {2.6.1}SSH, TLS and other security protocols}{8}{}%
-\contentsline {subsection}{\numberline {2.6.2}Watch out for anti-virus}{8}{}%
+\contentsline {section}{\numberline {2.2}Topologies}{8}{}%
+\contentsline {section}{\numberline {2.3}Tools}{8}{}%
+\contentsline {section}{\numberline {2.4}Network protocols to watch out for}{8}{}%
+\contentsline {section}{\numberline {2.5}TCP and UDP}{8}{}%
+\contentsline {section}{\numberline {2.6}DNS and DHCP}{8}{}%
+\contentsline {section}{\numberline {2.7}LDAP and other Windows services}{8}{}%
+\contentsline {section}{\numberline {2.8}NTP}{8}{}%
+\contentsline {section}{\numberline {2.9}SSH, TLS and other security protocols}{8}{}%
+\contentsline {section}{\numberline {2.10}Watch out for anti-virus}{8}{}%
 \contentsline {chapter}{\numberline {3.}Results}{9}{}%
 \contentsline {section}{\numberline {3.1}Breakdown of the network protocols in small enterprise network}{9}{}%
 \contentsline {section}{\numberline {3.2}Watch out we plotting the network map}{9}{}%
