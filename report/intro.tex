@@ -33,12 +33,12 @@ network traffic.
 \section{Basic network characteristics}
 
 We believe that there are several key network characteristics: delay, jitter, throughput, goodput, error and loss rates.
-All these metrics can be used while measuring the performance of the networked systems. In the paragraphs that follow
+All these metrics can be used to measure the performance of the networked systems. In the paragraphs that follow
 we will describe these metrics and try to explain why they are so important.
 
 {\it Delay } is the time it takes for the packet (on network layer) to reach the other communication side. Delay can be 
 one way or two way, also called {\it round trip time}. The former one is hard to measure since the clocks on both sides
-need to be synchronized. Technically, of course we can also use sophisticated algorithms and packet trains to measure one way 
+need to be synchronized. Technically, of course we can use sophisticated algorithms and packet trains to measure one way 
 delay (for example, the reader can look at the RFC 7679~\cite{}). But most of the time people rely on half of the RTT. This 
 metric is less accurate since the packets can travel different paths and, hence, delays can be different. But yet this metric 
 is quite common. For example, {\it ping} utility reports RTT as the measure of delay. We should note that delay impacts 
@@ -54,7 +54,7 @@ of the network delays and compute the variance.
 {\it Throughput} is also important and it captures how much data (including protocol headers and user payload) 
  can be delivered throughout network system in predefined time interval. Typically, the throughput is measured
 in Kb/s, Mb/s and Gb/s. Obviously, the larger is the throughput the better network operates. Networks with large 
-throughput can service larger number of clients in the network. {\it Goodput} is the same as throughput, but excludes 
+throughput can service larger number of clients. {\it Goodput} is the same as throughput, but excludes 
 the control data from the calculations. In other words, packet header is excluded from the calculations and only 
 user's payload is considered.
 
@@ -121,8 +121,8 @@ to start first the server with the -s flag, and only then run the client with -c
 {\it treceroute} is used often to trace the path the packet takes from host A to host B. The tool uses ICMP under the hood. 
 Not only it is used to trace the reachability of the intermediate routers but it also reports the RTTs.
 
-{\it netcat, or nc} is the tool that is available Linux distributions and commonly used to send the commands to the server over UDP sockets.
-It can be used to measure the bandwidth for example network administrators can send large enough binary package to the server and measure the 
+{\it netcat, or nc} is the tool that is available in Linux distributions and commonly used to send the commands to the server over UDP sockets.
+It can be used to measure the bandwidth. For example, network administrators can send large enough binary package to the server and measure the 
 time it takes for the transmission to happen.
 
 And finally {\it SNMP} can be used to collect reports from agents about network performance. Such characteristics as bytes per second 
@@ -141,7 +141,7 @@ network systems.
 to collect the raw packets and frames from the network interface of interest, while Wireshark is more advanced it can analyze the
 network traffic and export it to XML and JSON file formats. We ourselves use these tools in our network traffic analysis tasks.
 
-{\it nslookup and dig} are use to detect the problems with the DNS servers and queries. These tools are often used by network 
+{\it nslookup and dig} are used to detect the problems with the DNS servers and queries. These tools are often used by network 
 engineers to detect the problems with DNS and get information about remote systems. 
 
 {\it iproute} is a tool that can be used for multiple purposes, but primarily this tools is useful in configuring the routes to remote 
