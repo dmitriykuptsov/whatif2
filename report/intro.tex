@@ -129,7 +129,27 @@ And finally {\it SNMP} can be used to collect reports from agents about network 
 delivered by the network interface, ping RTT and many more can all be collected from network devices either with direct queries
 or with the help of agents.
 
-{\it Trouble shooting}. A set of tools available in this category. nmap, tcpdump, Wireshark, nslookup, dig, iproute, and ifconfig.
+{\it Trouble shooting}. A set of tools available in this category. nmap, tcpdump, Wireshark, nslookup, dig, iproute, and ifconfig. All these
+tools are indispensable in analyzing and troubleshooting the network problems. It is essential for any network engineer to be acquainted 
+and actively apply these tools. In the paragraphs that follows we will describe what every tool means, but briefly.
+
+{\it nmap} is a tool that allows network engineer to detect open network ports (both UDP and TCP). Essentially, the tool scans the 
+remote system and reports which port is open. Network engineers and hackers actively use this tool to detect weak points in the 
+network systems.
+
+{\it tcpdump and Wireshark}. These tools are helpful in collecting and analyzing network protocols. tcpdump is typically used
+to collect the raw packets and frames from the network interface of interest, while Wireshark is more advanced it can analyze the
+network traffic and export it to XML and JSON file formats. We ourselves use these tools in our network traffic analysis tasks.
+
+{\it nslookup and dig} are use to detect the problems with the DNS servers and queries. These tools are often used by network 
+engineers to detect the problems with DNS and get information about remote systems. 
+
+{\it iproute} is a tool that can be used for multiple purposes, but primarily this tools is useful in configuring the routes to remote 
+systems. For example, network engineers can use the tool to check whether the routes to remote hosts exist. It can be also used to add
+static routes. But these are just few examples. 
+
+And finally, {\it ifconfig} tool can be used to configure the network interfaces. For example, network engineers can use this tool
+to set default gateway, IP address on the interface, and set the DNS server name, either manually or with help of DHCP server.  
  
 \section{Network protocols to watch out for}
 
