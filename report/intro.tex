@@ -59,7 +59,7 @@ the control data from the calculations. In other words, packet header is exclude
 user's payload is considered.
 
 {\it Error rate} describes how often the packets arrive at the receiver with the corrupted bits. Most of the protocols
-use notion of reliability (that is of the data is corrupted it is requested again) and, hence, high error rate can 
+use notion of reliability (that is if the data is corrupted it is requested again) and, hence, high error rate can 
 reduce the performance of such protocols considerably. It is therefore important for the network engineers to avoid
 highly unstable links. Different media and operational environments have different error rates. For example, wireless
 links are often have grater error rate than wired and optical links. Also, different applications have different 
@@ -75,18 +75,18 @@ less expensive, but yet, lossy links. Typically, congested and wireless links wi
 with concrete, for example, have higher loss rates than fat wired and optical links.
 
 There are also other characteristics that can be measured, for example, the reader can take a look at the 
-congestion. But we are not going to cover those in this report.
+congestion and some other. But we are not going to cover those in this report.
 
 \section{Topologies}
 
 There are several key topologies that are used in enterprises: mesh, star and hybrid. {\it Mesh} 
-topology is when every network element is connected to every other network element. The links can be 
+topology is such topology in which every network element is connected to every other network element. The links can be 
 wired, wireless and pseudo links (if we are talking about overlays). Mesh can be full and partial.
 In full mesh, obviously, ever element is connected every other element in the network. Consider,
 for example, personal area network in which all nodes are connected using wireless medium. 
 Wired meshes are expensive, though, and are rarely used in modern deployments. Meshes are 
 crucial, however, when availability is a must. In mesh, some nodes can fail, yet, the network
-will remain and packets will be delivered, not to all but some devices. 
+will remain alive and packets will be delivered, not to all, but some devices at least. 
 
 {\it Star} topologies are cheaper and less fault tolerant. In star-like topology some node becomes 
 the root, while others connected to the root element and all the traffic flows through it. 
@@ -100,6 +100,37 @@ is shown in Figure~\ref{}.
 
 \section{Tools}
 
+Network engineers use wide variety of tools for measuring the permanence of the networks and in debugging tasks.
+All tools can be categorized based on tasks they are meant to be used for such as measuring and troubleshooting.
+
+{\it Measurement tasks:} to measure performance of the network a common set of tools includes ping utility, tcpping utility, traceroute utility, nc tool,
+speedtest and iperf, snmp statistics reports by agents and direct queries. In the following paragraph we will describe these tools.
+
+{\it Ping} utility is the most common tool to measure reachability of a host and measure the round trip times. The tool is based 
+on the ICMP protocol which we will describe later. This tool is widely available in Linux, Windows, BSD and Unix operating 
+systems.
+
+{\it TCPing} is another common network tool to measure the reachability of the TCP port in the network. But the tool can be also used 
+to measure the time to establish a TCP connection. To our best knowledge this tool is widely available for Windows OS without any 
+charges.
+
+{\it speedtest and iperf} utilities were primarily designed for measuring the bandwidth between two systems. The later one has
+client and server implementations. This means that to measure the bandwidth (both UDP and TCP connections can be used) one needs
+to start first the server with the -s flag, and only then run the client with -c flag.
+
+{\it treceroute} is used often to trace the path the packet takes from host A to host B. The tool uses ICMP under the hood. 
+Not only it is used to trace the reachability of the intermediate routers but it also reports the RTTs.
+
+{\it netcat, or nc} is the tool that is available Linux distributions and commonly used to send the commands to the server over UDP sockets.
+It can be used to measure the bandwidth for example network administrators can send large enough binary package to the server and measure the 
+time it takes for the transmission to happen.
+
+And finally {\it SNMP} can be used to collect reports from agents about network performance. Such characteristics as bytes per second 
+delivered by the network interface, ping RTT and many more can all be collected from network devices either with direct queries
+or with the help of agents.
+
+{\it Trouble shooting}. A set of tools available in this category. nmap, tcpdump, Wireshark, nslookup, dig, iproute, and ifconfig.
+ 
 \section{Network protocols to watch out for}
 
 \subsection{Spanning trees}

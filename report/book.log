@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.15)  15 JAN 2026 22:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.15)  16 JAN 2026 20:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -991,17 +991,17 @@ LaTeX Warning: Reference `' on page 9 undefined on input line 94.
 
 LaTeX Warning: Reference `' on page 9 undefined on input line 99.
 
-[9] [10] [11
+[9] [10] [11] [12
 
-] [12
+] [13] [14
 
-]) (./book.bbl [13] [14
+]) (./book.bbl [15] [16
 
 ]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [15] (./book.aux)
+) [17] (./book.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1020,10 +1020,10 @@ exlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/
 xmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/local/texlive/2021/texmf-dis
 t/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts
 /type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on book.pdf (15 pages, 72625 bytes).
+Output written on book.pdf (17 pages, 76848 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
+ 83 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
