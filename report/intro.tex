@@ -26,7 +26,7 @@ This section consists of several important parts: First, we
 discuss main network characteristics of the network; Second,
 we describe various types of network topologies and device 
 orchestrations; Third, we present various tools which are useful
-in enterprise network measurements; Finally, we discuss most wide spread 
+in enterprise network measurements; Finally, we discuss most widely spread 
 network protocols to watch out for in the enterprise 
 network traffic.
 
@@ -44,7 +44,7 @@ metric is less accurate since the packets can travel different paths and, hence,
 is quite common. For example, {\it ping} utility reports RTT as the measure of delay. We should note that delay impacts 
 user experience greatly, and therefore, it is good to have links with low delays.
 
-{\it Jitter} is yet another important metric and is wide spread across network engineers. Jitter is the variation of the 
+{\it Jitter} is yet another important metric and is widely spread across network engineers. Jitter is the variation of the 
 delay, that is jitter shows how much the delay is varying throughout time. This metric is important because it can 
 affect how the protocol timers are calculated. For example, if the jitter is high, the calculated timers can be 
 inaccurate and, hence, the performance of such protocols can be undermined. Thus, the lower the jitter the better, in 
@@ -152,6 +152,10 @@ And finally, {\it ifconfig} tool can be used to configure the network interfaces
 to set default gateway, IP address on the interface, and set the DNS server name, either manually or with help of DHCP server.  
  
 \section{Network protocols to watch out for}
+
+There is a humongous amount of protocols in morern networks: from L2 STP to Voice of IP at L4. But we are interetested in only 
+few protocols that are common during basic network analysis and troubleshooting: We will cover L2 STP protocol, TCP, UDP, ICMP
+and some security protocols at L4 such as SSH and TLS.
 
 \subsection{Spanning trees}
 
