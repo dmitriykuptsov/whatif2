@@ -5,19 +5,20 @@
 \contentsline {chapter}{\numberline {2.}Background}{7}{}%
 \contentsline {section}{\numberline {2.1}Basic network characteristics}{7}{}%
 \contentsline {section}{\numberline {2.2}Topologies}{9}{}%
-\contentsline {section}{\numberline {2.3}Tools}{9}{}%
-\contentsline {section}{\numberline {2.4}Network protocols to watch out for}{11}{}%
-\contentsline {subsection}{\numberline {2.4.1}Spanning trees}{11}{}%
-\contentsline {subsection}{\numberline {2.4.2}TCP, UDP and ICMP}{11}{}%
-\contentsline {subsection}{\numberline {2.4.3}DNS and DHCP}{11}{}%
-\contentsline {subsection}{\numberline {2.4.4}LDAP and other Windows services}{11}{}%
-\contentsline {subsection}{\numberline {2.4.5}What about timing: NTP}{11}{}%
-\contentsline {subsection}{\numberline {2.4.6}SSH, TLS and other security protocols}{11}{}%
-\contentsline {subsection}{\numberline {2.4.7}Watch out for anti-virus}{11}{}%
-\contentsline {chapter}{\numberline {3.}Results}{13}{}%
-\contentsline {section}{\numberline {3.1}Breakdown of the network protocols in small enterprise network}{13}{}%
-\contentsline {section}{\numberline {3.2}Watch out! We are plotting the network map}{13}{}%
-\contentsline {section}{\numberline {3.3}Performance, performance and once again performance: Stressing the outside world}{13}{}%
-\contentsline {section}{\numberline {3.4}Looking for the world: CGNs and TCP}{13}{}%
-\contentsline {chapter}{\numberline {4.}Conclusions}{15}{}%
-\contentsline {chapter}{Bibliography}{17}{}%
+\contentsline {section}{\numberline {2.3}Tools}{11}{}%
+\contentsline {section}{\numberline {2.4}Network protocols to watch out for}{12}{}%
+\contentsline {subsection}{\numberline {2.4.1}Spanning trees}{13}{}%
+\contentsline {subsection}{\numberline {2.4.2}TCP, UDP and ICMP}{13}{}%
+\contentsline {subsection}{\numberline {2.4.3}DNS and DHCP}{13}{}%
+\contentsline {subsection}{\numberline {2.4.4}LDAP and other Windows services}{13}{}%
+\contentsline {subsection}{\numberline {2.4.5}What about timing: NTP}{13}{}%
+\contentsline {subsection}{\numberline {2.4.6}SSH, TLS and other security protocols}{13}{}%
+\contentsline {subsection}{\numberline {2.4.7}Watch out for anti-virus}{13}{}%
+\contentsline {chapter}{\numberline {3.}Results}{15}{}%
+\contentsline {section}{\numberline {3.1}Data collection}{15}{}%
+\contentsline {section}{\numberline {3.2}Breakdown of the network protocols in small enterprise network}{17}{}%
+\contentsline {section}{\numberline {3.3}Watch out! We are plotting the network map}{21}{}%
+\contentsline {section}{\numberline {3.4}Performance, performance and once again performance: Stressing the outside world}{21}{}%
+\contentsline {section}{\numberline {3.5}Looking for the world: CGNs and TCP}{21}{}%
+\contentsline {chapter}{\numberline {4.}Conclusions}{23}{}%
+\contentsline {chapter}{Bibliography}{25}{}%
