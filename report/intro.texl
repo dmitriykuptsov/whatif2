@@ -180,25 +180,13 @@ to set default gateway, IP address on the interface, and set the DNS server name
 \section{Network protocols to watch out for}
 
 There is humongous amount of protocols in modern networks: from L2 STP to Voice of IP at L4. But we are interetested in only 
-few protocols that one should watch out during basic network analysis and troubleshooting: We will cover L2 STP protocol, TCP, UDP, ICMP, DNS, DHCP
+few protocols that are common during basic network analysis and troubleshooting: We will cover L2 STP protocol, TCP, UDP, ICMP
 and some security protocols at L4 such as SSH and TLS.
 
 \subsection{Spanning trees}
 
 Spanning tree protocol or STP is one of the most important protocols in local area networks. STP builds 
 a tree without loops so that frames will not loop forever in the network. 
-
-Spanning tree protocol operates on the L2 and is responsible for constructing the loop-free network topologies.
-Recall, L2 frames do not have TTL fields like IP protocol. And so if the network is not loop-free the 
-frames can circulate endlessly in the network. 
-
-STP operates in phases. First, the network switches elect the so called root bridge - the bridge that 
-will be the root of the tree. Switches do so by broadcasting their identifiers - the switch with the 
-lowest identifier is elected as root. Once, the root switch is elected nodes start to construct the tree
-by assigning the ports roles: the port can be either root port, designated port or blocked port.
-The root bridge asignes all of its ports as designated ports. Other switches asign ports as
-designated ports if they have the shortest distance to the root bridge. The remaining ports become 
-blocked and so no traffic can traverse these ports.
 
 \subsection{TCP, UDP and ICMP}
 
