@@ -195,10 +195,13 @@ frames can circulate endlessly in the network.
 STP operates in phases. First, the network switches elect the so called root bridge - the bridge that 
 will be the root of the tree. Switches do so by broadcasting their identifiers - the switch with the 
 lowest identifier is elected as root. Once, the root switch is elected nodes start to construct the tree
-by assigning the ports roles: the port can be either root port, designated port or blocked port.
-The root bridge asignes all of its ports as designated ports. Other switches asign ports as
+by assigning  roles to the ports: the port can be either root port, designated port or blocked port.
+The root bridge assigns all of its ports as designated ports. Other switches assign ports as
 designated ports if they have the shortest distance to the root bridge. The remaining ports become 
-blocked and so no traffic can traverse these ports.
+blocked and so no traffic can traverse these ports. The initial implementation was defined in IEEE 802.1D
+standard. Later more efficient protocols were defined for example consider Rapid STP, Per VLAN STP.
+THese protocols have faster convergance time and can be used to defined different spanning trees
+for each VLAN.
 
 \subsection{TCP, UDP and ICMP}
 
