@@ -248,6 +248,35 @@ traffic analysis. In Table~\ref{tab:tcpports} we list some of the well known TCP
   \end{tabular}
 \end{table*}
 
+User Datagram protocol or UDP does not guarantee reliable delivery of the packets.
+So, typically it is used together with such protocols as VoIP, Dynamic Host Configuration Protocol (DHCP).
+And redundancy is typically embedded into the UDP protocol by the upper layer protocols. And in case
+of loss or corruption, upper layer protocols use this redundancy to mask these failures.
+UDP, however, similarly to TCP protocol uses port numbers to make the connections. 
+Retransmissions are also controlled by the application itself.
+
+Most important UDP protocols and ports is shown in Figure~\ref{fig:udp}.
+
+\begin{table*}[h!]
+  \caption{Well-known TCP ports}
+  \label{tab:udp}
+  \centering
+  \begin{tabular}{lc}
+    \hline
+    {\bf Protocol} & {\bf Ports }\\
+    \hline
+    DNS            & 53 \\
+    DHCP           & 67/68 \\
+    SNMP           & 161 \\
+    TFTP           & 69 \\
+    RTP            & dynamic \\
+    NTP            & 123 \\
+    SIP            & 5060 \\
+    QUIC           & 443 \\
+    \hline
+  \end{tabular}
+\end{table*}
+
 \subsection{DNS and DHCP}
 
 \subsection{LDAP and other Windows services}
