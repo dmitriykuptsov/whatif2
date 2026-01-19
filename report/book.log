@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.15)  19 JAN 2026 17:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.15)  19 JAN 2026 19:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1009,12 +1009,12 @@ LaTeX Warning: Reference `fig:udp' on page 14 undefined on input line 258.
 
 ]
 
-LaTeX Warning: Citation `cisco:ccent' on page 17 undefined on input line 303.
+LaTeX Warning: Citation `cisco:ccent' on page 17 undefined on input line 317.
 
 <graphics/network_arch.png, id=68, 257.46187pt x 304.88907pt>
 File: graphics/network_arch.png Graphic file (type png)
 <use graphics/network_arch.png>
-Package pdftex.def Info: graphics/network_arch.png  used on input line 315.
+Package pdftex.def Info: graphics/network_arch.png  used on input line 329.
 (pdftex.def)             Requested size: 147.95207pt x 175.2075pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1024,30 +1024,30 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (2.4874pt too wide) in paragraph at lines 371--375
+Overfull \hbox (2.4874pt too wide) in paragraph at lines 385--389
 \T1/pnc/m/n/10.95 To per-form the pre-pro-cess-ing we have ex-tracted the bi-na
 ry data and stored
  []
 
 [18 <./graphics/network_arch.png>]
 LaTeX Font Info:    Trying to load font information for TS1+pnc on input line 3
-83.
+97.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1pnc.fd
 File: ts1pnc.fd 2001/06/04 font definitions for TS1/pnc.
 )
-Overfull \hbox (0.2958pt too wide) in paragraph at lines 389--392
+Overfull \hbox (0.2958pt too wide) in paragraph at lines 403--406
 []\T1/pnc/m/n/10.95 From TCP header we have se-lected source and des-ti-na-tion
  ports, stream
  []
 
 [19]
-Overfull \hbox (19.13472pt too wide) in paragraph at lines 427--436
+Overfull \hbox (19.13472pt too wide) in paragraph at lines 441--450
  [][] 
  []
 
 
-Overfull \hbox (24.11945pt too wide) in paragraph at lines 454--469
+Overfull \hbox (24.11945pt too wide) in paragraph at lines 468--483
  [][] 
  []
 
@@ -1058,7 +1058,7 @@ File: graphics/interaction_between_local_computers_over_tcp.pdf Graphic file (t
 ype pdf)
 <use graphics/interaction_between_local_computers_over_tcp.pdf>
 Package pdftex.def Info: graphics/interaction_between_local_computers_over_tcp.
-pdf  used on input line 514.
+pdf  used on input line 528.
 (pdftex.def)             Requested size: 332.895pt x 332.90036pt.
  [21]
 <graphics/bubble_plot_distribution_of_open_ports.pdf, id=91, 505.89pt x 505.89p
@@ -1067,7 +1067,7 @@ File: graphics/bubble_plot_distribution_of_open_ports.pdf Graphic file (type pd
 f)
 <use graphics/bubble_plot_distribution_of_open_ports.pdf>
 Package pdftex.def Info: graphics/bubble_plot_distribution_of_open_ports.pdf  u
-sed on input line 540.
+sed on input line 554.
 (pdftex.def)             Requested size: 332.895pt x 332.90036pt.
  [22 <./graphics/interaction_between_local_computers_over_tcp.pdf>]
 [23 <./graphics/bubble_plot_distribution_of_open_ports.pdf>] [24
@@ -1102,7 +1102,7 @@ xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2021/texmf-dis
 t/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts
 /type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
 urw/ncntrsbk/uncri8a.pfb>
-Output written on book.pdf (27 pages, 435939 bytes).
+Output written on book.pdf (27 pages, 436789 bytes).
 PDF statistics:
  157 PDF objects out of 1000 (max. 8388607)
  105 compressed objects within 2 object streams

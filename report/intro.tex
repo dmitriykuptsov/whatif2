@@ -277,7 +277,21 @@ Most important UDP protocols and ports is shown in Figure~\ref{fig:udp}.
   \end{tabular}
 \end{table*}
 
+Internet Control Message Protocol is tipycally used to detect liveness of the hosts in the Internet,
+as well as to send error messages to the sender. ICMP used in such utilities as ping and traceroute.
+
 \subsection{DNS and DHCP}
+
+DNS protocol or Domain Name Service protocol is used to resolve fully qualified domain name
+(DNS) into IPv4 and IPv6 addresses. It is also used to perform reverse transformation from
+IP address to domain name. DNS is vital in modern network as it allows not to remember the IP
+address of the system, but, instead, human readable name of the resource.
+
+DNS resolver works recursively: At first, host sends the query to designated DNS server (typically
+the same machine as the default router or a dedicated DNS server); Second, DNS server sends 
+the query to the top level domain (TLD); TLD responds with the root server IP responsible for
+the name in the query, and DNS server sends next query to TLD; Finally, the DNS server sends
+the query to target DNS server and resolves the FQDN into IPv4 or IPv6 address.
 
 \subsection{LDAP and other Windows services}
 
