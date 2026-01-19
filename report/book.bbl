@@ -1,3 +1,21 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{ssl}
+{RFC 6101: The Secure Sockets Layer (SSL) Protocol Version 3.0}.
+\newblock https://datatracker.ietf.org/doc/html/rfc6101.
+
+\bibitem{rfc7401}
+{RFC 7401: Host Identity Protocol Version 2 (HIPv2)}.
+\newblock https://www.rfc-editor.org/rfc/rfc7401.html.
+
+\bibitem{tls}
+{RFC 5246: The Transport Layer Security (TLS) Protocol Version 1.2}.
+\newblock https://datatracker.ietf.org/doc/html/rfc5246, 2008.
+
+\bibitem{gurtov:hip}
+{\sc Gurtov, A.}
+\newblock {\em Host Identity Protocol (HIP): Towards the Secure Mobile
+  Internet}.
+\newblock 2008.
 
 \end{thebibliography}

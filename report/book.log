@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.15)  19 JAN 2026 20:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.15)  19 JAN 2026 20:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1005,91 +1005,93 @@ Package pdftex.def Info: graphics/hybrid.png  used on input line 121.
 
 LaTeX Warning: Reference `fig:udp' on page 14 undefined on input line 258.
 
-[14] [15] [16
+[14] [15] [16] [17] [18
 
 ]
 
-LaTeX Warning: Citation `cisco:ccent' on page 17 undefined on input line 327.
+LaTeX Warning: Citation `cisco:ccent' on page 19 undefined on input line 370.
 
-<graphics/network_arch.png, id=68, 257.46187pt x 304.88907pt>
+<graphics/network_arch.png, id=74, 257.46187pt x 304.88907pt>
 File: graphics/network_arch.png Graphic file (type png)
 <use graphics/network_arch.png>
-Package pdftex.def Info: graphics/network_arch.png  used on input line 339.
+Package pdftex.def Info: graphics/network_arch.png  used on input line 382.
 (pdftex.def)             Requested size: 147.95207pt x 175.2075pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[17]
+[19]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (2.4874pt too wide) in paragraph at lines 395--399
+Overfull \hbox (2.4874pt too wide) in paragraph at lines 438--442
 \T1/pnc/m/n/10.95 To per-form the pre-pro-cess-ing we have ex-tracted the bi-na
 ry data and stored
  []
 
-[18 <./graphics/network_arch.png>]
+[20 <./graphics/network_arch.png>]
 LaTeX Font Info:    Trying to load font information for TS1+pnc on input line 4
-07.
+50.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1pnc.fd
 File: ts1pnc.fd 2001/06/04 font definitions for TS1/pnc.
 )
-Overfull \hbox (0.2958pt too wide) in paragraph at lines 413--416
+Overfull \hbox (0.2958pt too wide) in paragraph at lines 456--459
 []\T1/pnc/m/n/10.95 From TCP header we have se-lected source and des-ti-na-tion
  ports, stream
  []
 
-[19]
-Overfull \hbox (19.13472pt too wide) in paragraph at lines 451--460
+[21]
+Overfull \hbox (19.13472pt too wide) in paragraph at lines 494--503
  [][] 
  []
 
 
-Overfull \hbox (24.11945pt too wide) in paragraph at lines 478--493
+Overfull \hbox (24.11945pt too wide) in paragraph at lines 521--536
  [][] 
  []
 
-[20]
-<graphics/interaction_between_local_computers_over_tcp.pdf, id=87, 505.89pt x 5
+[22]
+<graphics/interaction_between_local_computers_over_tcp.pdf, id=93, 505.89pt x 5
 05.89pt>
 File: graphics/interaction_between_local_computers_over_tcp.pdf Graphic file (t
 ype pdf)
 <use graphics/interaction_between_local_computers_over_tcp.pdf>
 Package pdftex.def Info: graphics/interaction_between_local_computers_over_tcp.
-pdf  used on input line 538.
+pdf  used on input line 581.
 (pdftex.def)             Requested size: 332.895pt x 332.90036pt.
- [21]
-<graphics/bubble_plot_distribution_of_open_ports.pdf, id=91, 505.89pt x 505.89p
+ [23]
+<graphics/bubble_plot_distribution_of_open_ports.pdf, id=97, 505.89pt x 505.89p
 t>
 File: graphics/bubble_plot_distribution_of_open_ports.pdf Graphic file (type pd
 f)
 <use graphics/bubble_plot_distribution_of_open_ports.pdf>
 Package pdftex.def Info: graphics/bubble_plot_distribution_of_open_ports.pdf  u
-sed on input line 564.
+sed on input line 607.
 (pdftex.def)             Requested size: 332.895pt x 332.90036pt.
- [22 <./graphics/interaction_between_local_computers_over_tcp.pdf>]
-[23 <./graphics/bubble_plot_distribution_of_open_ports.pdf>] [24
+ [24 <./graphics/interaction_between_local_computers_over_tcp.pdf>]
+[25 <./graphics/bubble_plot_distribution_of_open_ports.pdf>] [26
 
 ]) (./book.bbl
-[25] [26
+[27] [28
 
 ]
+Underfull \hbox (badness 3482) in paragraph at lines 4--6
+[]\T1/pnc/m/n/10 RFC 6101: The Se-cure Sock-ets Layer (SSL) Pro-to-col Ver-sion
+ 3.0.
+ []
 
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) [27] (./book.aux)
+) [29] (./book.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 18622 strings out of 478994
- 352638 string characters out of 5858184
+ 18632 strings out of 478994
+ 352727 string characters out of 5858184
  1176608 words of memory out of 5000000
- 35637 multiletter control sequences out of 15000+600000
- 462062 words of font info for 136 fonts, out of 8000000 for 9000
+ 35644 multiletter control sequences out of 15000+600000
+ 468438 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  143i,9n,144p,432b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1102,10 +1104,10 @@ xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2021/texmf-dis
 t/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts
 /type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
 urw/ncntrsbk/uncri8a.pfb>
-Output written on book.pdf (27 pages, 437365 bytes).
+Output written on book.pdf (29 pages, 441932 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
- 105 compressed objects within 2 object streams
+ 163 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

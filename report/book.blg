@@ -4,45 +4,49 @@ The top-level auxiliary file: book.aux
 The style file: acm.bst
 Database file #1: mybib.bib
 Warning--I didn't find a database entry for "cisco:ccent"
-You've used 0 entries,
+Warning--to sort, need author or key in ssl
+Warning--to sort, need author or key in tls
+Warning--to sort, need author or key in rfc7401
+Warning--empty publisher in gurtov:hip
+You've used 4 entries,
             2253 wiz_defined-function locations,
-            527 strings with 3879 characters,
-and the built_in function-call counts, 18 in all, are:
-= -- 0
-> -- 0
+            540 strings with 4299 characters,
+and the built_in function-call counts, 723 in all, are:
+= -- 64
+> -- 10
 < -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
++ -- 6
+- -- 2
+* -- 30
+:= -- 98
+add.period$ -- 9
+call.type$ -- 4
+change.case$ -- 12
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 8
+duplicate$ -- 34
+empty$ -- 93
+format.name$ -- 2
+if$ -- 168
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 4
+missing$ -- 2
+newline$ -- 20
+num.names$ -- 2
+pop$ -- 33
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 9
 quote$ -- 0
-skip$ -- 1
+skip$ -- 29
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 20
+swap$ -- 5
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 2
-(There was 1 warning)
+type$ -- 14
+warning$ -- 4
+while$ -- 2
+width$ -- 5
+write$ -- 33
+(There were 5 warnings)

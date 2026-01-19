@@ -13,11 +13,11 @@
 \contentsline {subsection}{\numberline {2.4.4}LDAP and other Windows services}{15}{}%
 \contentsline {subsection}{\numberline {2.4.5}What about timing: NTP}{15}{}%
 \contentsline {subsection}{\numberline {2.4.6}SSH, TLS and other security protocols}{15}{}%
-\contentsline {subsection}{\numberline {2.4.7}Watch out for anti-virus}{15}{}%
-\contentsline {chapter}{\numberline {3.}Results}{17}{}%
-\contentsline {section}{\numberline {3.1}Data collection}{17}{}%
-\contentsline {section}{\numberline {3.2}Breakdown of the network protocols in small enterprise network}{19}{}%
-\contentsline {section}{\numberline {3.3}Watch out! We are plotting the network map}{21}{}%
-\contentsline {section}{\numberline {3.4}Performance, performance and once again performance: Stressing the network}{23}{}%
-\contentsline {chapter}{\numberline {4.}Conclusions}{25}{}%
-\contentsline {chapter}{Bibliography}{27}{}%
+\contentsline {subsection}{\numberline {2.4.7}Watch out for anti-virus}{17}{}%
+\contentsline {chapter}{\numberline {3.}Results}{19}{}%
+\contentsline {section}{\numberline {3.1}Data collection}{19}{}%
+\contentsline {section}{\numberline {3.2}Breakdown of the network protocols in small enterprise network}{21}{}%
+\contentsline {section}{\numberline {3.3}Watch out! We are plotting the network map}{23}{}%
+\contentsline {section}{\numberline {3.4}Performance, performance and once again performance: Stressing the network}{25}{}%
+\contentsline {chapter}{\numberline {4.}Conclusions}{27}{}%
+\contentsline {chapter}{Bibliography}{29}{}%
