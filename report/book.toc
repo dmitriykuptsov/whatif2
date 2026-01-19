@@ -9,11 +9,11 @@
 \contentsline {section}{\numberline {2.4}Network protocols to watch out for}{12}{}%
 \contentsline {subsection}{\numberline {2.4.1}Spanning trees}{12}{}%
 \contentsline {subsection}{\numberline {2.4.2}TCP, UDP and ICMP}{13}{}%
-\contentsline {subsection}{\numberline {2.4.3}DNS and DHCP}{13}{}%
-\contentsline {subsection}{\numberline {2.4.4}LDAP and other Windows services}{13}{}%
-\contentsline {subsection}{\numberline {2.4.5}What about timing: NTP}{13}{}%
-\contentsline {subsection}{\numberline {2.4.6}SSH, TLS and other security protocols}{13}{}%
-\contentsline {subsection}{\numberline {2.4.7}Watch out for anti-virus}{13}{}%
+\contentsline {subsection}{\numberline {2.4.3}DNS and DHCP}{14}{}%
+\contentsline {subsection}{\numberline {2.4.4}LDAP and other Windows services}{14}{}%
+\contentsline {subsection}{\numberline {2.4.5}What about timing: NTP}{14}{}%
+\contentsline {subsection}{\numberline {2.4.6}SSH, TLS and other security protocols}{14}{}%
+\contentsline {subsection}{\numberline {2.4.7}Watch out for anti-virus}{14}{}%
 \contentsline {chapter}{\numberline {3.}Results}{15}{}%
 \contentsline {section}{\numberline {3.1}Data collection}{15}{}%
 \contentsline {section}{\numberline {3.2}Breakdown of the network protocols in small enterprise network}{17}{}%

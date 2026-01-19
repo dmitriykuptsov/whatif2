@@ -87,7 +87,7 @@ congestion and some other. But we are not going to cover those in this report.
 There are several key topologies that are used in enterprises: mesh, star and hybrid. {\it Mesh} 
 topology is such topology in which every network element is connected to every other network element. The links can be 
 wired, wireless and pseudo links (if we are talking about overlays). Mesh can be full and partial.
-In full mesh, obviously, ever element is connected every other element in the network. Consider,
+In full mesh, obviously, every element is connected every other element in the network. Consider,
 for example, personal area network in which all nodes are connected using wireless medium. 
 Wired meshes are expensive, though, and are rarely used in modern deployments. Meshes are 
 crucial, however, when availability is a must. In mesh, some nodes can fail, yet, the network
@@ -127,7 +127,7 @@ is shown in Figure~\ref{fig:hybrid}.
 \section{Tools}
 
 Network engineers use wide variety of tools for measuring the permanence of the networks and in debugging tasks.
-All tools can be categorized based on tasks they are meant to be used for such as measuring and troubleshooting.
+All tools can be categorized based on tasks they are meant to be used for, such as, measuring and troubleshooting.
 
 {\it Measurement tasks:} to measure performance of the network a common set of tools includes ping utility, tcpping utility, traceroute utility, nc tool,
 speedtest and iperf, snmp statistics reports by agents and direct queries. In the following paragraph we will describe these tools.
@@ -170,12 +170,12 @@ network traffic and export it to XML and JSON file formats. We ourselves use the
 {\it nslookup and dig} are used to detect the problems with the DNS servers and queries. These tools are often used by network 
 engineers to detect the problems with DNS and get information about remote systems. 
 
-{\it iproute} is a tool that can be used for multiple purposes, but primarily this tools is useful in configuring the routes to remote 
+{\it iproute} is a tool that can be used for multiple purposes, but primarily these tools are useful in configuring the routes to remote 
 systems. For example, network engineers can use the tool to check whether the routes to remote hosts exist. It can be also used to add
 static routes. But these are just few examples. 
 
 And finally, {\it ifconfig} tool can be used to configure the network interfaces. For example, network engineers can use this tool
-to set default gateway, IP address on the interface, and set the DNS server name, either manually or with help of DHCP server.  
+to set default gateway, IP address on the interface, and set the DNS server IP address, either manually or with help of DHCP server.  
  
 \section{Network protocols to watch out for}
 
@@ -197,13 +197,34 @@ will be the root of the tree. Switches do so by broadcasting their identifiers -
 lowest identifier is elected as root. Once, the root switch is elected nodes start to construct the tree
 by assigning  roles to the ports: the port can be either root port, designated port or blocked port.
 The root bridge assigns all of its ports as designated ports. Other switches assign ports as
-designated ports if they have the shortest distance to the root bridge. The remaining ports become 
+root ports if they have the shortest distance to the root bridge. The switch assigns the remaining ports as
+designated ports if they are closer too root port on the segment. The remaining ports become 
 blocked and so no traffic can traverse these ports. The initial implementation was defined in IEEE 802.1D
 standard. Later more efficient protocols were defined for example consider Rapid STP, Per VLAN STP.
-THese protocols have faster convergance time and can be used to defined different spanning trees
+These protocols have faster convergence time and can be used to defined different spanning trees
 for each VLAN.
 
 \subsection{TCP, UDP and ICMP}
+
+There are variety of the protocols on transport layer. But we are going to cover 
+only three such protocols: TCP, UDP and ICMP.
+
+TCP protocol is the transport layer protocol. Transmission control protocol, or TCP,
+uses acknowledgments to deliver the packets in the network. In other words TCP is a 
+reliable protocol, since unacknowledged packets are sent again. Many application layer protocols
+use TCP for transport. For example, SSH, HTTPS, FTP and other all use TCP as the base, since these
+protocols do not tolerate the packet losses. 
+
+TCP session starts with 3-way handshakes. First the initiator, or client, sends SYN packet.
+Upon reception of the SYN packet the server sends the SYN+ACK packet. And finally, the 
+client acknowledges the reception of the SYN+ACK with ACK packet. During the handshake
+the parties also exchange the initial sequence numbers between each other. The completion
+of the communication session happens with two-way handshake. One party sends FIN packet 
+and the other sends FIN+ACK packet.
+
+TCP protocol requires two IP addresses and two ports. There exist well defined ports 
+for common TCP applications. It is important to look for these well known ports during the 
+traffic analysis. In Table~\ref{tab:tcpports} we list some of the well known TCP ports.
 
 \subsection{DNS and DHCP}
 
