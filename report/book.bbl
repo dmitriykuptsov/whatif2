@@ -1,5 +1,13 @@
 \begin{thebibliography}{1}
 
+\bibitem{rfc5905}
+{Network Time Protocol Version 4: Protocol and Algorithms Specification}.
+\newblock https://datatracker.ietf.org/doc/html/rfc5905.
+
+\bibitem{rfc7679}
+A one-way delay metric for ip performance metrics (ippm).
+\newblock https://datatracker.ietf.org/doc/rfc7679/.
+
 \bibitem{ssl}
 {RFC 6101: The Secure Sockets Layer (SSL) Protocol Version 3.0}.
 \newblock https://datatracker.ietf.org/doc/html/rfc6101.
@@ -17,5 +25,10 @@
 \newblock {\em Host Identity Protocol (HIP): Towards the Secure Mobile
   Internet}.
 \newblock 2008.
+
+\bibitem{cisco:ccent}
+{\sc Odom, W.}
+\newblock {\em {CCENT/CCNA ICND1 100-105 Official Cert Guide}}.
+\newblock 2016.
 
 \end{thebibliography}

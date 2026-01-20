@@ -45,7 +45,7 @@ we will describe these metrics and try to explain why they are so important.
 {\it Delay } is the time it takes for the packet (on network layer) to reach the other communication side. Delay can be 
 one way or two way, also called {\it round trip time}. The former one is hard to measure since the clocks on both sides
 need to be synchronized. Technically, of course we can use sophisticated algorithms and packet trains to measure one way 
-delay (for example, the reader can look at the RFC 7679~\cite{}). But most of the time people rely on half of the RTT. This 
+delay (for example, the reader can look at the RFC 7679~\cite{rfc7679}). But most of the time people rely on half of the RTT. This 
 metric is less accurate since the packets can travel different paths and, hence, delays can be different. But yet this metric 
 is quite common. For example, {\it ping} utility reports RTT as the measure of delay. We should note that delay impacts 
 user experience greatly, and therefore, it is good to have links with low delays.
@@ -164,7 +164,7 @@ remote system and reports which port is open. Network engineers and hackers acti
 network systems.
 
 {\it tcpdump and Wireshark}. These tools are helpful in collecting and analyzing network protocols. tcpdump is typically used
-to collect the raw packets and frames from the network interface of interest, while Wireshark is more advanced it can analyze the
+to collect the raw packets and frames from the network interface of interest, while Wireshark is more advanced: it can analyze the
 network traffic and export it to XML and JSON file formats. We ourselves use these tools in our network traffic analysis tasks.
 
 {\it nslookup and dig} are used to detect the problems with the DNS servers and queries. These tools are often used by network 
@@ -211,9 +211,9 @@ only three such protocols: TCP, UDP and ICMP.
 
 TCP protocol is the transport layer protocol. Transmission control protocol, or TCP,
 uses acknowledgments to deliver the packets in the network. In other words TCP is a 
-reliable protocol, since unacknowledged packets are sent again. Many application layer protocols
+reliable protocol, since unacknowledged packets are being sent again. Many application layer protocols
 use TCP for transport. For example, SSH, HTTPS, FTP and other all use TCP as the base, since these
-protocols do not tolerate the packet losses. 
+protocols do not tolerate packet losses. 
 
 TCP session starts with 3-way handshakes. First the initiator, or client, sends SYN packet.
 Upon reception of the SYN packet the server sends the SYN+ACK packet. And finally, the 
@@ -283,14 +283,14 @@ as well as to send error messages to the sender. ICMP used in such utilities as 
 \subsection{DNS and DHCP}
 
 DNS protocol or Domain Name Service protocol is used to resolve fully qualified domain name
-(DNS) into IPv4 and IPv6 addresses. It is also used to perform reverse transformation from
+(FQDN) into IPv4 and IPv6 addresses. It is also used to perform reverse transformation from
 IP address to domain name. DNS is vital in modern network as it allows not to remember the IP
 address of the system, but, instead, human readable name of the resource.
 
 DNS resolver works recursively: At first, host sends the query to designated DNS server (typically
 the same machine as the default router or a dedicated DNS server); Second, DNS server sends 
 the query to the top level domain (TLD); TLD responds with the root server IP responsible for
-the name in the query, and DNS server sends next query to TLD; Finally, the DNS server sends
+the name in the query, and DNS server sends next query to root DNS server; Finally, the DNS server sends
 the query to target DNS server and resolves the FQDN into IPv4 or IPv6 address.
 
 Dynamic Host Configuration Protocol is a handy protocol that allows configuring hosts
@@ -298,14 +298,29 @@ with IP address (both IPv4 and IPv6 versions exist), default gateway, DNS server
 and other parameters. DHCPv4 operates in 4 phases (or 4-way handshake). First,
 the client send DISCOVER packet (broadcast) seeking for the DHCP server. DHCP server
 responds with the OFFER (it offers IP address). Later on the client, if it accepts the 
-IP address send DHCP REQUEST packet in unicast fashion. And finally, the server responds
+IP address sends DHCP REQUEST packet in unicast fashion. And finally, the server responds
 with ACK packet. After such configuration the client can communicate with the rest 
 of the network elements in the network. There is also DHCPv6, but it is used for configuration
 of the IPv6-enabled clients. The operation is quite similar to IPv4 version.
 
 \subsection{LDAP and other Windows services}
 
+There are several key Windows protocols that you will typically see in the network. LDAP, Kerboros
+and WINS are just few examples.
+
+The Lightweight Directory Access Protocol (LDAP) is an open, vendor-neutral application 
+protocol for accessing and maintaining distributed directory information services (like user 
+accounts, passwords, and network resources) over an IP network. LDAP often operates on TCP port
+389.
+
 \subsection{What about timing: NTP}
+
+Keeping time synchnorized in the network is important. Many applications rely on accurate timing.
+For example, application loggging system puts the timestamps in the files, precise activation of scheduled jobs relies on 
+system time, and so on.
+
+NTP was defined in RFC 5905~\cite{rfc5905} and is commonly used by network devices to synchronize clocks.
+NTP operates on UDP port 123, so it is imporatant that firewall will allow this port to be open.
 
 \subsection{SSH, TLS and other security protocols}
 	
@@ -353,6 +368,11 @@ signaling routine to notify the corresponding peer about the locator change. Mor
 about HIP can be found in RFC 7401~\cite{rfc7401}.
 
 \subsection{Watch out for anti-virus}
+
+Upon examination of the logs we have observed that quite a lot of connections were made 
+to the anti-virus server. This protocol consumes a lot of bandwidth and seems to be 
+vital in modern enterprise networks. In Table~\ref{tab:apps} we can see that 
+anti-virus applications sends more packets than any other network applications in the system.
 
 \chapter{Results}
 
@@ -574,7 +594,6 @@ previous paragraphs). In Table~\ref{tab:invalid:mac} we list these
 MAC addresses as well as corresponding IP addresses found in such
 frames, and manufacture's name. Obviously, such disripancy is strange.
 
-\section{Watch out! We are plotting the network map}
 
 
 \begin{figure}[!hbt]\centering
@@ -583,20 +602,21 @@ frames, and manufacture's name. Obviously, such disripancy is strange.
   \label{fig:interaction}
 \end{figure}
 
-\eat{
 \begin{figure}[!hbt]\centering
   \includegraphics[width=0.9\textwidth]{graphics/distribution_of_frame_sizes.pdf}
   \caption{Distribution of frame sizes}
   \label{fig:frame_sizes}
 \end{figure}
-}
 
 For the cleaned data, our first step was to take a look at the distribution of TCP and UDP applications and the number of bytes these 
 applications transmitted. Thus, in Table~\ref{tab:apps} we show the distribution of $9$ most used UDP and TCP applications. We examened 
 both inter-VLAN and Internet traffic. We observed that while most of hosts were not actively connected to the Internet, using the VPN 
 connections, $15366$ connection attemps were made towards the Internet (only TCP SYN packet was captured, which was dropped by the 
-firewall). This could be an indication that quite a lot of connections are made in fact in a stealth mode on users' computers. Next, we 
-have computed the adjacency graph for computers which were interacting over TCP in the local network (an interaction here means that at 
+firewall). This could be an indication that quite a lot of connections are made in fact in a stealth mode on users' computers. 
+
+\section{Watch out! We are plotting the network map}
+
+Next, we have computed the adjacency graph for computers which were interacting over TCP in the local network (an interaction here means that at 
 least one TCP/UDP connection between the pair of computers existed). \eat{In Figure~\ref{fig:interaction} we demonstrated the graph of 
 interaction for TCP connections only.} As it was expected, only few computers (servers) were accepting all TCP connection, with a small 
 fraction of computers were interacting between each other. Upon expecting closely the logs we have found few interesting things: (i) at 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.15)  19 JAN 2026 20:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.15)  20 JAN 2026 11:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1006,14 +1006,12 @@ Package pdftex.def Info: graphics/hybrid.png  used on input line 121.
 [18
 
 ]
-
-LaTeX Warning: Citation `cisco:ccent' on page 19 undefined on input line 370.
-
 <graphics/network_arch.png, id=74, 257.46187pt x 304.88907pt>
 File: graphics/network_arch.png Graphic file (type png)
 <use graphics/network_arch.png>
-Package pdftex.def Info: graphics/network_arch.png  used on input line 382.
+Package pdftex.def Info: graphics/network_arch.png  used on input line 402.
 (pdftex.def)             Requested size: 147.95207pt x 175.2075pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1022,30 +1020,30 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (2.4874pt too wide) in paragraph at lines 438--442
+Overfull \hbox (2.4874pt too wide) in paragraph at lines 458--462
 \T1/pnc/m/n/10.95 To per-form the pre-pro-cess-ing we have ex-tracted the bi-na
 ry data and stored
  []
 
 [20 <./graphics/network_arch.png>]
 LaTeX Font Info:    Trying to load font information for TS1+pnc on input line 4
-50.
+70.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1pnc.fd
 File: ts1pnc.fd 2001/06/04 font definitions for TS1/pnc.
 )
-Overfull \hbox (0.2958pt too wide) in paragraph at lines 456--459
+Overfull \hbox (0.2958pt too wide) in paragraph at lines 476--479
 []\T1/pnc/m/n/10.95 From TCP header we have se-lected source and des-ti-na-tion
  ports, stream
  []
 
 [21]
-Overfull \hbox (19.13472pt too wide) in paragraph at lines 494--503
+Overfull \hbox (19.13472pt too wide) in paragraph at lines 514--523
  [][] 
  []
 
 
-Overfull \hbox (24.11945pt too wide) in paragraph at lines 521--536
+Overfull \hbox (24.11945pt too wide) in paragraph at lines 541--556
  [][] 
  []
 
@@ -1056,56 +1054,64 @@ File: graphics/interaction_between_local_computers_over_tcp.pdf Graphic file (t
 ype pdf)
 <use graphics/interaction_between_local_computers_over_tcp.pdf>
 Package pdftex.def Info: graphics/interaction_between_local_computers_over_tcp.
-pdf  used on input line 581.
+pdf  used on input line 600.
+(pdftex.def)             Requested size: 332.895pt x 332.90036pt.
+<graphics/distribution_of_frame_sizes.pdf, id=94, 505.89pt x 505.89pt>
+File: graphics/distribution_of_frame_sizes.pdf Graphic file (type pdf)
+<use graphics/distribution_of_frame_sizes.pdf>
+Package pdftex.def Info: graphics/distribution_of_frame_sizes.pdf  used on inpu
+t line 606.
 (pdftex.def)             Requested size: 332.895pt x 332.90036pt.
  [23]
-<graphics/bubble_plot_distribution_of_open_ports.pdf, id=97, 505.89pt x 505.89p
+<graphics/bubble_plot_distribution_of_open_ports.pdf, id=98, 505.89pt x 505.89p
 t>
 File: graphics/bubble_plot_distribution_of_open_ports.pdf Graphic file (type pd
 f)
 <use graphics/bubble_plot_distribution_of_open_ports.pdf>
 Package pdftex.def Info: graphics/bubble_plot_distribution_of_open_ports.pdf  u
-sed on input line 607.
+sed on input line 627.
 (pdftex.def)             Requested size: 332.895pt x 332.90036pt.
  [24 <./graphics/interaction_between_local_computers_over_tcp.pdf>]
-[25 <./graphics/bubble_plot_distribution_of_open_ports.pdf>] [26
+[25 <./graphics/distribution_of_frame_sizes.pdf>] [26 <./graphics/bubble_plot_d
+istribution_of_open_ports.pdf>]) (./book.bbl [27
 
-]) (./book.bbl
-[27] [28
+] [28
 
 ]
-Underfull \hbox (badness 3482) in paragraph at lines 4--6
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+[]\T1/pnc/m/n/10 A one-way de-lay met-ric for ip per-for-mance met-rics (ippm).
+
+ []
+
+
+Underfull \hbox (badness 3482) in paragraph at lines 12--14
 []\T1/pnc/m/n/10 RFC 6101: The Se-cure Sock-ets Layer (SSL) Pro-to-col Ver-sion
  3.0.
  []
 
-) [29] (./book.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+) [29] (./book.aux) ) 
 Here is how much of TeX's memory you used:
- 18631 strings out of 478994
- 352718 string characters out of 5858184
- 1176608 words of memory out of 5000000
- 35643 multiletter control sequences out of 15000+600000
+ 18641 strings out of 478994
+ 353040 string characters out of 5858184
+ 1175608 words of memory out of 5000000
+ 35652 multiletter control sequences out of 15000+600000
  468438 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  143i,9n,144p,432b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
-ive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
-/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
-2021/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2021/te
-xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2021/texmf-dis
-t/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts
-/type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
-urw/ncntrsbk/uncri8a.pfb>
-Output written on book.pdf (29 pages, 441906 bytes).
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8
+r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
+.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
+fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/local/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/lo
+cal/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/tex
+live/2021/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/local/texlive/20
+21/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2021/texm
+f-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
+Output written on book.pdf (29 pages, 448072 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
+ 170 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
