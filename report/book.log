@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.15)  20 JAN 2026 11:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.15)  20 JAN 2026 12:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1009,7 +1009,7 @@ Package pdftex.def Info: graphics/hybrid.png  used on input line 121.
 <graphics/network_arch.png, id=74, 257.46187pt x 304.88907pt>
 File: graphics/network_arch.png Graphic file (type png)
 <use graphics/network_arch.png>
-Package pdftex.def Info: graphics/network_arch.png  used on input line 402.
+Package pdftex.def Info: graphics/network_arch.png  used on input line 404.
 (pdftex.def)             Requested size: 147.95207pt x 175.2075pt.
 
 
@@ -1020,30 +1020,30 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (2.4874pt too wide) in paragraph at lines 458--462
+Overfull \hbox (2.4874pt too wide) in paragraph at lines 460--464
 \T1/pnc/m/n/10.95 To per-form the pre-pro-cess-ing we have ex-tracted the bi-na
 ry data and stored
  []
 
 [20 <./graphics/network_arch.png>]
 LaTeX Font Info:    Trying to load font information for TS1+pnc on input line 4
-70.
+72.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1pnc.fd
 File: ts1pnc.fd 2001/06/04 font definitions for TS1/pnc.
 )
-Overfull \hbox (0.2958pt too wide) in paragraph at lines 476--479
+Overfull \hbox (0.2958pt too wide) in paragraph at lines 478--481
 []\T1/pnc/m/n/10.95 From TCP header we have se-lected source and des-ti-na-tion
  ports, stream
  []
 
 [21]
-Overfull \hbox (19.13472pt too wide) in paragraph at lines 514--523
+Overfull \hbox (19.13472pt too wide) in paragraph at lines 516--525
  [][] 
  []
 
 
-Overfull \hbox (24.11945pt too wide) in paragraph at lines 541--556
+Overfull \hbox (24.11945pt too wide) in paragraph at lines 543--558
  [][] 
  []
 
@@ -1054,13 +1054,13 @@ File: graphics/interaction_between_local_computers_over_tcp.pdf Graphic file (t
 ype pdf)
 <use graphics/interaction_between_local_computers_over_tcp.pdf>
 Package pdftex.def Info: graphics/interaction_between_local_computers_over_tcp.
-pdf  used on input line 600.
+pdf  used on input line 602.
 (pdftex.def)             Requested size: 332.895pt x 332.90036pt.
 <graphics/distribution_of_frame_sizes.pdf, id=94, 505.89pt x 505.89pt>
 File: graphics/distribution_of_frame_sizes.pdf Graphic file (type pdf)
 <use graphics/distribution_of_frame_sizes.pdf>
 Package pdftex.def Info: graphics/distribution_of_frame_sizes.pdf  used on inpu
-t line 606.
+t line 608.
 (pdftex.def)             Requested size: 332.895pt x 332.90036pt.
  [23]
 <graphics/bubble_plot_distribution_of_open_ports.pdf, id=98, 505.89pt x 505.89p
@@ -1069,14 +1069,14 @@ File: graphics/bubble_plot_distribution_of_open_ports.pdf Graphic file (type pd
 f)
 <use graphics/bubble_plot_distribution_of_open_ports.pdf>
 Package pdftex.def Info: graphics/bubble_plot_distribution_of_open_ports.pdf  u
-sed on input line 627.
+sed on input line 620.
 (pdftex.def)             Requested size: 332.895pt x 332.90036pt.
  [24 <./graphics/interaction_between_local_computers_over_tcp.pdf>]
 [25 <./graphics/distribution_of_frame_sizes.pdf>]
 <graphics/sequence_progress.pdf, id=118, 505.89pt x 505.89pt>
 File: graphics/sequence_progress.pdf Graphic file (type pdf)
 <use graphics/sequence_progress.pdf>
-Package pdftex.def Info: graphics/sequence_progress.pdf  used on input line 656
+Package pdftex.def Info: graphics/sequence_progress.pdf  used on input line 661
 .
 (pdftex.def)             Requested size: 332.895pt x 332.90036pt.
 
@@ -1119,7 +1119,7 @@ cal/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/tex
 live/2021/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/local/texlive/20
 21/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2021/texm
 f-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on book.pdf (31 pages, 760606 bytes).
+Output written on book.pdf (31 pages, 760780 bytes).
 PDF statistics:
  184 PDF objects out of 1000 (max. 8388607)
  124 compressed objects within 2 object streams

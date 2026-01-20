@@ -255,7 +255,7 @@ of loss or corruption, upper layer protocols use this redundancy to mask these f
 UDP, however, similarly to TCP protocol uses port numbers to make the connections. 
 Retransmissions are also controlled by the application itself.
 
-Most important UDP protocols and ports is shown in Table~\ref{tab:udp}.
+Most important UDP protocols and ports are shown in Table~\ref{tab:udp}.
 
 \begin{table*}[h!]
   \caption{Well-known TCP ports}
@@ -373,6 +373,8 @@ Upon examination of the logs we have observed that quite a lot of connections we
 to the anti-virus server. This protocol consumes a lot of bandwidth and seems to be 
 vital in modern enterprise networks. In Table~\ref{tab:apps} we can see that 
 anti-virus applications sends more packets than any other network applications in the system.
+The bottom line is the following: not only anti-virus is important in the network and needs to
+be installed on all the computers, but also the signature database need to be up-to-date.
 
 \chapter{Results}
 
@@ -614,6 +616,19 @@ both inter-VLAN and Internet traffic. We observed that while most of hosts were 
 connections, $15366$ connection attemps were made towards the Internet (only TCP SYN packet was captured, which was dropped by the 
 firewall). This could be an indication that quite a lot of connections are made in fact in a stealth mode on users' computers. 
 
+\begin{figure}[!hbt]
+  \includegraphics[width=0.9\textwidth]{graphics/bubble_plot_distribution_of_open_ports.pdf }
+  \caption{Distribution of ports used in the network}
+  \label{fig:ports}
+\end{figure}   
+
+Next we computed the distribution of the packet sizes for packets with valid IP addresses. Interestingly there were frames which were larger than maximum allowed Ethernet frames 
+size (so called jumbo frames). Around $10\%$ of the IPv4 packet were larger than $1500$ bytes. In Figure~\ref{fig:frame_sizes} we show this distribution.
+
+
+To finilize the discussion, we have also plotted the distribution of port and IP addresses. In Figure~\ref{fig:ports} we show this distribution.
+
+
 \section{Watch out! We are plotting the network map}
 
 Next, we have computed the adjacency graph for computers which were interacting over TCP in the local network (an interaction here means that at 
@@ -622,16 +637,6 @@ interaction for TCP connections only.} As it was expected, only few computers (s
 fraction of computers were interacting between each other. Upon expecting closely the logs we have found few interesting things: (i) at 
 least one machine had misconfigured address (it was using self generated IP addresses with the prefix $169.254.171.0/24$); (ii) 
 only two machines were interacting with non-server computers $192.168.23.13$ and $192.168.3.6$ using ports $139$ and $445$.
-
-\begin{figure}[!hbt]
-  \includegraphics[width=0.9\textwidth]{graphics/bubble_plot_distribution_of_open_ports.pdf }
-  \caption{Distribution of ports used in the network}
-  \label{fig:ports}
-\end{figure}   
-
-Next we computed the distribution of the packet sizes for packets with valid IP addresses. Interestingly there were frames which were larger than maximum allowed Ethernet frames 
-size (so called jumbo frames). Around $10\%$ of the IPv4 packet were larger than $1500$ bytes. Finally, we have built the distribution 
-of destination ports used in the packets. In Figure~\ref{fig:ports} we show this distribution.
 
 
 \section{Performance, performance and once again performance: Stressing the network}
@@ -643,9 +648,9 @@ All this is done with the monitoring software.
 
 \section{VPN connections}
 
-In addition we have monitored the  long-living VPN connections. Upon doing so, we have noticed that 
+Finally, we have monitored the  long-living VPN connections. Upon doing so, we have noticed that 
 service providers do not play nicely with such connections.
-For exampl, we have observed that TCP connections can enter so called 
+For example, we have observed that TCP connections can enter so called 
 {\it stale} state: ACKs do not go through in both directions,
 but only one. In this case, the connection remains in 
 ESTABLISHED state, but the data does not go through.
