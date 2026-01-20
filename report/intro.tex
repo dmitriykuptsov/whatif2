@@ -634,9 +634,34 @@ size (so called jumbo frames). Around $10\%$ of the IPv4 packet were larger than
 of destination ports used in the packets. In Figure~\ref{fig:ports} we show this distribution.
 
 
-
 \section{Performance, performance and once again performance: Stressing the network}
 
+We have also stress-tested the network on ragular bases. For example, we have tested the bandwidth
+between the gateway and the host in the Internet in order to udnerstand the performance of the outside
+network. In addition it is important to measure the performance of the links between hosts and servers.
+All this is done with the monitoring software.
+
+\section{VPN connections}
+
+In addition we have monitored the  long-living VPN connections. Upon doing so, we have noticed that 
+service providers do not play nicely with such connections.
+For exampl, we have observed that TCP connections can enter so called 
+{\it stale} state: ACKs do not go through in both directions,
+but only one. In this case, the connection remains in 
+ESTABLISHED state, but the data does not go through.
+The result of the sequence progress is shown in Figure~\ref{fig:tcp}.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{graphics/sequence_progress.pdf}
+\caption{TCP sequence progress in both directions}
+\label{fig:tcp}
+\end{figure}
+
+Clearly, drop of the spikes indicate TCP connection restarts. But one thing
+is really interesting, the last TCP connection restarts successfully, but the sequences
+are progressing only for one direction: from client to server. The data does not go 
+through the CGN from server to client and the TCP connection hangs.
 
 \chapter{Conclusions}
 

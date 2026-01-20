@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.15)  20 JAN 2026 11:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.15)  20 JAN 2026 11:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1072,10 +1072,21 @@ Package pdftex.def Info: graphics/bubble_plot_distribution_of_open_ports.pdf  u
 sed on input line 627.
 (pdftex.def)             Requested size: 332.895pt x 332.90036pt.
  [24 <./graphics/interaction_between_local_computers_over_tcp.pdf>]
-[25 <./graphics/distribution_of_frame_sizes.pdf>] [26 <./graphics/bubble_plot_d
-istribution_of_open_ports.pdf>]) (./book.bbl [27
+[25 <./graphics/distribution_of_frame_sizes.pdf>]
+<graphics/sequence_progress.pdf, id=118, 505.89pt x 505.89pt>
+File: graphics/sequence_progress.pdf Graphic file (type pdf)
+<use graphics/sequence_progress.pdf>
+Package pdftex.def Info: graphics/sequence_progress.pdf  used on input line 656
+.
+(pdftex.def)             Requested size: 332.895pt x 332.90036pt.
 
-] [28
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[26 <./graphics/bubble_plot_distribution_of_open_ports.pdf>] [27 <./graphics/se
+quence_progress.pdf>] [28
+
+]) (./book.bbl [29] [30
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 8--10
@@ -1089,12 +1100,12 @@ Underfull \hbox (badness 3482) in paragraph at lines 12--14
  3.0.
  []
 
-) [29] (./book.aux) ) 
+) [31] (./book.aux) ) 
 Here is how much of TeX's memory you used:
- 18641 strings out of 478994
- 353040 string characters out of 5858184
- 1175608 words of memory out of 5000000
- 35652 multiletter control sequences out of 15000+600000
+ 18648 strings out of 478994
+ 353263 string characters out of 5858184
+ 1176608 words of memory out of 5000000
+ 35658 multiletter control sequences out of 15000+600000
  468438 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  143i,9n,144p,432b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1108,10 +1119,10 @@ cal/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/tex
 live/2021/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/local/texlive/20
 21/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2021/texm
 f-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on book.pdf (29 pages, 448072 bytes).
+Output written on book.pdf (31 pages, 760606 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
+ 184 PDF objects out of 1000 (max. 8388607)
+ 124 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
