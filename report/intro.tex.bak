@@ -315,12 +315,12 @@ accounts, passwords, and network resources) over an IP network. LDAP often opera
 
 \subsection{What about timing: NTP}
 
-Keeping time synchronized in the network is important. Many applications rely on accurate timing.
-For example, application logging system puts the timestamps in the files, precise activation of scheduled jobs relies on 
+Keeping time synchnorized in the network is important. Many applications rely on accurate timing.
+For example, application loggging system puts the timestamps in the files, precise activation of scheduled jobs relies on 
 system time, and so on.
 
 NTP was defined in RFC 5905~\cite{rfc5905} and is commonly used by network devices to synchronize clocks.
-NTP operates on UDP port 123, so it is important that firewall will allow this port to be open.
+NTP operates on UDP port 123, so it is imporatant that firewall will allow this port to be open.
 
 \subsection{SSH, TLS and other security protocols}
 	
