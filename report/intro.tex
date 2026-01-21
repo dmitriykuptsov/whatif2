@@ -290,7 +290,7 @@ address of the system, but, instead, human readable name of the resource.
 DNS resolver works recursively: At first, host sends the query to designated DNS server (typically
 the same machine as the default router or a dedicated DNS server); Second, DNS server sends 
 the query to the root; root domain server responds with the Top Level Domain (TLD) server IP responsible for
-the name in the query, and DNS server sends next query to root DNS server; Finally, the DNS server sends
+the name in the query, and DNS server sends next query to TLD DNS server; Finally, the DNS server sends
 the query to target DNS server and resolves the FQDN into IPv4 or IPv6 address.
 
 Dynamic Host Configuration Protocol is a handy protocol that allows configuring hosts
